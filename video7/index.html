@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets learn it</title>
+</head>
+
+<body>
+    <h1>Form to apply for Sigma Web Development course -TA</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your Username:</label>
+            <input type="text" name="username" placeholder="Enter your username">
+        </div>
+        <div>
+            <label for="gender">Select your Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="profession">Select you profession</label>
+            <input type="checkbox" id="engineer" name="profession1" value="engineer">
+            <label for="profession1">Engineer</label>
+            <input type="checkbox" id="doctor" name="profession2" value="doctor">
+            <label for="profession1">Doctor</label>
+            <input type="checkbox" id="C.A." name="profession3" value="C.A.">
+            <label for="profession1">C.A.</label>
+        </div>
+        <div>
+            <label for="comment">Enter about you</label>
+            <br>
+            <textarea name="comment" rows="4" cols="50">Enter your details here....</textarea>
+        </div>
+        <div>
+            <label for="teacher">Entry you favorite Teacher: </label>
+            <select name="teacher">
+                <option value="Dr.S.kJain">Dr.S.kJain</option>
+                <option value="Dr.J.K.Chabra">Dr.J.K.Chabra</option>
+                <option value="Dr.Mayank Dave">Dr.Mayank Dave</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
