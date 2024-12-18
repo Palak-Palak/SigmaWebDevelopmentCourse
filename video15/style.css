@@ -1,0 +1,8 @@
+/* There are three ways to add the CSS into a HTML page:
+1)Inline css
+2)Internal css
+3)External css */
+h1 {
+    background-color: yellow;
+    color: brown;
+}

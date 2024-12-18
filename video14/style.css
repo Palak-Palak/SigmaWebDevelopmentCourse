@@ -1,0 +1,6 @@
+/* div-selector */
+div,
+span {
+    color: red;
+    background-color: yellow;
+}
