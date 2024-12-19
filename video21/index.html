@@ -5,24 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Specifity and Cascade</title>
     <style>
-        h1{
-            color:aqua;
+        /* The specifity of this selector is 1 */
+        h1 {
+            color: aqua;
         }
-        .yellow{
-            color:yellow;
+        /* The specifity of this selector is 10*/
+        .yellow {
+            color: yellow;
         }
-        .cpurple{
-            color:purple;
+        /* The specifity of this selector is 10 */
+        .cpurple {
+            color: purple !important;
         }
-        .cred{
-            color:yellow;
+         /* The specifity of this selector is 10 */
+        .cred {
+            color: red;
         }
+        /* This is the example of attribute selector.The specifity of this selector is 10.*/
+        [data-x=a]{
+            color:maroon;
+        }
+        /* The final color of this text is maroon. */
+        /* When the specifity is same then comes the sensitivity */
     </style>
 </head>
 <body>
     <div>
-    <h1 style="color:blue" class="yellow cred cpurple">CSS Specificity</h1>
-    <!-- This is based on cascade algorithm -->
+        <h1 style="color:blue" class="yellow cred cpurple" data-x="a">CSS Specificity</h1>
+        <!-- This is based on cascade algorithm -->
+        <!-- This is based on sensitivity and specifity -->
     </div>
 </body>
+
 </html>
