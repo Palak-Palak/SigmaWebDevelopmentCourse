@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            height: 433px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+        }
+
+        .box1 {
+            background-color: aquamarine;
+            position: sticky;
+            top: 0px;
+            height: 20px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box2 {
+            background-color: aqua;
+            /* position: relative; */
+        }
+
+        .box3 {
+            background-color: black;
+            /* position: relative; */
+            color: white;
+        }
+
+        .box4 {
+            background-color: blue;
+            /* position: relative; */
+
+        }
+
+        .parent {
+            /* transform,filter or persepective properties can also 
+            make an element appear as positioned  */
+            padding: 43px;
+            margin: 34px;
+            width: 600px;
+            border: 3px solid purple;
+            /* position:relative; */
+            /* filter:invert(0);
+            transform:translate(0); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box box1">Lorem ipsum dolor sit amet consectet.</div>
+        <div class="box box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis veritatis cum voluptas
+            ipsa
+            asperiores cumque sapiente velit. Eveniet veniam mollitia enim et sapiente!</div>
+        <div class="box box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde nostrum eveniet eius
+            aliquam cum voluptatibus nihil veritatis, officiis quae. Voluptates, pariatur ad?</div>
+        <div class="box box4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minima accusantium nam
+            perferendis doloribus consequatur nostrum minus, incidunt eos iure amet praesentium. Esse?</div>
+    </div>
+</body>
+
+</html>
