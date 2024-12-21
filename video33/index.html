@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChallengeNo - 4</title>
+    <style>
+        :root{
+            --color:rgb(22, 28, 43);
+            --seccolor:rgb(255, 0, 217);
+            --hover:rgb(128, 0, 15);
+            --whole:rgb(0, 0, 0);
+            --bgcolor:rgb(76, 0, 255);
+            --dpadding:20px;
+            --pcolor:rgb(255, 255, 255);
+        }
+        *{
+            background-color:var(--whole);
+        }
+        nav ul li{
+            background-color:var(--color,red);
+            color:var(--seccolor,yellow);
+            list-style: none;
+            padding:var(--dpadding,white);
+        }
+        ul{
+            display:flex;
+        }
+        nav ul li:hover{
+            color:var(--hover,white);
+            background-color:var(--bgcolor,brown);
+        }
+        p{
+            color:var(--pcolor);
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consequuntur minus facilis quae expedita,
+            ullam quas unde necessitatibus rem assumenda enim repellat, neque quo incidunt voluptas molestias molestiae
+            optio nemo eius eligendi, placeat exercitationem!
+        </p>
+    </div>
+</body>
+
+</html>
