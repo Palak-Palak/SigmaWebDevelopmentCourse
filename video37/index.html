@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .head{
+            position:sticky;
+            top:0;
+        }
+        nav ul li{
+            list-style:none;
+            padding:25px;
+        }
+        nav ul a{
+            text-decoration:none;
+            color:purple;
+        }
+        ul{
+            display:flex;
+        }
+        nav{
+            background-color: pink;
+        }
+        .middle{
+            background-color:green;
+            margin-left:12px;
+            margin-right:12px;
+            border:2px solid black;
+            height:500px;
+            display:flex;
+            
+        }
+        .box{
+            border:2px solid black;
+            height:400px;
+            width:500px;
+            margin-top:20px;
+            margin-left:120px;
+            margin-right:120px;
+        }
+        .box1{
+            background-color:rgb(255, 192, 248);
+        }
+        .box2{
+            background-color:blue;
+        }
+        .foot{
+            margin-top:15px;
+            border:2px solid black;
+            width:800px;
+            height:200px;
+            border-radius:40px;
+            text-align:center;
+            padding-top:90px;
+            margin-left:250px;
+            background-color: black;
+            color:white;
+        }
+        .end{
+            margin:10px 0px;
+            padding:20px;
+            background-color:aqua;
+        }
+        img{
+            height:100px;
+            width:100px;
+            position:fixed;
+            right:10px;
+            bottom:200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="challenge">
+    <header class="head">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="middle">
+     <div class=" box box1">
+        <p>Hey I am a box</p>
+     </div>
+     <div class=" box box2">
+        <p>Hey I am another box</p>
+     </div>
+    </main>
+    <div class="logo">
+    <h1 class="foot">Welcome to Sigma Web Development Course</h1>
+    <img src="image.avif">
+    </div>
+    <footer class="end">
+        <h3>Hey this is the footer.This is the end of this web page.</h3>
+    </footer>
+    </div>
+</body>
+</html>
